@@ -3044,8 +3044,8 @@ image-rendering: pixelated;
       }
       return hash;
   }
-  function addGameScript(gameName) {
-      //let gameName = window.location.search.substring(1);
+  function addGameScript() {
+      let gameName = window.location.search.substring(1);
       gameName = gameName.replace(/\W/g, "");
       if (gameName.length === 0) {
           return;
