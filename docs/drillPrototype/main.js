@@ -311,7 +311,7 @@ function update() {
 
       if (player.pos.x < G.WIDTH/3) {
 
-        player.pos.x += 0.045 * (1 - abs(angle));
+        player.pos.x += 0.015 * (1 - abs(angle));
     
       }
 
